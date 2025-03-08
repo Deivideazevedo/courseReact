@@ -1,0 +1,24 @@
+# Ignorar dependências Node.js em qualquer pasta
+*/node_modules/
+*/.pnp/
+*/.pnp.js
+
+# Ignorar a pasta de build de qualquer app
+*/build/
+
+# Ignorar arquivos de ambiente em qualquer app
+*/.env.local
+*/.env.*.local
+
+# Ignorar arquivos de log
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
+
+# Ignorar o diretório de cobertura
+*/coverage/
+
+# Ignorar IDE e arquivos de sistema
+*/.DS_Store
+*/.vscode/
+*.log
